@@ -1,0 +1,1 @@
+javac $(find ./src/* | grep .java) -d ./dist/
