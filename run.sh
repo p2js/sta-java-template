@@ -1,2 +1,2 @@
 ./build.sh
-java -classpath dist Main
+java -cp "lib/*;dist" Main

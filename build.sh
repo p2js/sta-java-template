@@ -1,1 +1,1 @@
-javac $(find ./src/* | grep .java) -d ./dist/
+javac -cp "lib/*" $(find ./src/* | grep .java) -d ./dist/
